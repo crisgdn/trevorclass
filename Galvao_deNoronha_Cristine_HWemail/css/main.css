@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 0.3em;
+}
+
+body {  
+  font-family: 'Montserrat', sans-serif;
+  color: #fdfdfd;  
+  background-image: linear-gradient(to top, #000000 0%, #323232 100%);
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 2em;
+  background-color: transparent;
+  min-height: 100vh;
+}
+
+.contact-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 0.17em solid white;
+  padding: 1.9em;
+  margin-top: 3em;
+  width: 40vw;
+  min-width: 17em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 0.63em;
+  margin-bottom: 0.32em;
+}
+
+.input-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.94rem;
+  color: #000;
+  background-color: white;
+  width: 33vw;
+  min-width: 16.5em;
+  margin: 0.5em 0;
+  padding: 1em;
+  border: 0.17em solid #2d004d;
+}
+
+#message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.94rem;
+  background-color: white;
+  color: #000;
+  border: 0.17em solid #2d004d;
+  width: 33vw;
+  min-width: 16.5em;
+  margin: 0.5em 0;
+  padding: 1em;
+}
+
+::placeholder {
+   font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color:#c70e61;
+  color: white;
+  font-size: 0.90rem;
+  padding: 0.63em 0.63em;
+  border: none;
+  margin: 0.2em 0;
+  width: 8.75em;
+  cursor: pointer;
+}
+
+button:hover {
+  border: bottom 0.5em;
+  background-color: #6e0ab6;
+}
+
+button:active {
+
+  background-color: #3d0253;
+}
